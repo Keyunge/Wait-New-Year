@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// Function to get the target time (New Year's Day 2026)
+// Function to get the target time (New Year's Day 2027)
 chrono::system_clock::time_point get_new_year_time() {
     tm new_year_tm = {};
     new_year_tm.tm_year = 2027 - 1900; // Years since 1900
@@ -50,4 +50,5 @@ int main() {
     }
 
     return 0;
+
 }
